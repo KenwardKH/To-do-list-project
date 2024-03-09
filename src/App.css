@@ -1,0 +1,42 @@
+body {
+  background-color: aliceblue;
+  padding: 0;
+}
+
+.main {
+  text-align: center;
+}
+.list {
+  display: flex;
+  justify-content: center;
+}
+table{
+  border-collapse: collapse;
+}
+td{
+  text-align: left;
+}
+.input {
+  width: 300px;
+  border-radius: 50px;
+}
+.check {
+  width: 30px;
+}
+.number{
+  display: inline;
+}
+tr:nth-child(odd){
+  background-color: cyan;
+}
+tr:nth-child(even){
+  background-color: yellow;
+}
+.cross button, .check button{
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+}
+.isi {
+  width: 250px;
+}
